@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 1 Belajar HTML dan Css</title>
+    <link rel="stylesheet" href="style.css" class="rel">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+<audio id="lagu">
+    <source src="sigma.mp3">
+</audio>
+<header>
+    <video id="bg-video" poster="latihan1.jpg" autoplay muted loop>
+        <source src="latihan.mp4" type="video/mp4" />
+    </video>
+</header>
+
+<script>
+    window.addEventListener('click', () => {
+        document.getElementById("lagu").play();
+    });
+</script>
+    <div class="video-info">
+    <div class="header-klik">Klik disini untuk mengaktifkan lagu
+    <div class="kartu">
+        <div class="image">
+            <img src="OTOT.jpg" alt="GAMBAR ORANG SIGMA" class="kartu-image">
+        </div>
+        <div class="teks">
+            <span class="nama">GymLab</span>
+            <span class="kerja">Personal Trainer & Gymrat</span>
+        </div>
+        <div class="sosmed">
+            <a href="https://www.facebook.com/profile.php?id=100080630233111" style="background-color: #4267b2;"  class="link">
+                <i class='bx bxl-facebook-circle' ></i>
+            </a>
+            <a href="https://www.instagram.com/padil_zaki_keratos/" style="background-color: #e1306c;" class="link">
+                <i class='bx bxl-instagram'></i>
+            </a>
+            <a href="https://wa.me/6282175155963" style="background-color: #25d366;" class="link">
+                <i class='bx bxl-whatsapp'></i>
+            </a>
+        </div>
+        <div class="tombol">
+            <button id="messageButton" class="tombol1">Message</button>
+        </div>
+
+    </div>
+    </div>
+</div>
+</body>
+</html>
